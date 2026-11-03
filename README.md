@@ -2,17 +2,17 @@
 
 **让重要的，始终在身边。 · Keep what matters close.**
 
-[中文](#中文) · [English](#english) · [下载 / Download](https://github.com/jayueseven/nearkeep-releases/releases/tag/v1.0.0-preview.2) · [版本记录 / Releases](https://github.com/jayueseven/nearkeep-releases/releases)
+[中文](#中文) · [English](#english) · [下载 / Download](https://github.com/jayueseven/nearkeep-releases/releases/tag/v1.0.0) · [版本记录 / Releases](https://github.com/jayueseven/nearkeep-releases/releases)
 
 ## 中文
 
 Nearkeep 是一个本地优先的文件工作空间。把值得留下的文件收进口袋，按自己的方式整理，再通过文件名、关键词或内容描述找回来。桌面伴侣 **Nicole** 陪你完成收取和查找，让资料更容易回到手边。
 
-当前预览版聚焦 **收集 → 整理 → 查找 → 使用**。它已经具备真实文件夹管理和本地语义检索；个人 AI 空间、持续理解上下文等属于长期方向，不代表本版提供聊天、生成式摘要或云同步。
+Nearkeep 1.0 聚焦 **收集 → 整理 → 查找 → 使用**。它已经具备真实文件夹管理和本地语义检索；个人 AI 空间、持续理解上下文等属于长期方向，不代表本版提供聊天、生成式摘要或云同步。
 
 ### 下载与系统要求
 
-**[下载 Nearkeep 1.0.0 Preview 2](https://github.com/jayueseven/nearkeep-releases/releases/tag/v1.0.0-preview.2)** · 免费、未公证的 macOS 体验版
+**[下载 Nearkeep 1.0](https://github.com/jayueseven/nearkeep-releases/releases/tag/v1.0.0)** · 免费 macOS 版 · 尚未公证
 
 | 项目 | 当前支持 |
 | --- | --- |
@@ -20,7 +20,7 @@ Nearkeep 是一个本地优先的文件工作空间。把值得留下的文件�
 | 系统 | 构建最低目标 macOS 14；当前实测 macOS 27.0.1，尚未验收所有中间系统版本 |
 | 安装包 | ZIP，内含 Nearkeep.app 和本地检索模型，约 618.5 MB；需额外解压空间 |
 | 签名 | 临时签名（ad hoc），没有 Developer ID 签名或 Apple 公证 |
-| 状态 | 公开预览版；兼容性与完整安装生命周期验收仍在持续进行 |
+| 版本 | 1.0.0，构建 20261103.1；各系统版本的兼容性仍需持续验证 |
 
 ### 可以做什么
 
@@ -33,7 +33,7 @@ Nearkeep 是一个本地优先的文件工作空间。把值得留下的文件�
 
 ### 安装与首次使用
 
-1. 从版本页下载 `Nearkeep-1.0.0-preview.2-macOS-arm64.zip` 和 `SHA256SUMS.txt`，放在同一目录，执行：
+1. 从版本页下载 `Nearkeep-1.0.0-macOS-arm64.zip` 和 `SHA256SUMS.txt`，放在同一目录，执行：
 
    ```sh
    shasum -a 256 -c SHA256SUMS.txt
@@ -45,6 +45,8 @@ Nearkeep 是一个本地优先的文件工作空间。把值得留下的文件�
 4. **全新资料状态**首次打开会显示空资料库，并引导选择专用保存文件夹；不会预填开发者路径或示例文件。取消选择不会开始导入。
 5. **已有用户**更新后继续使用原资料和保存位置，不会因重新下载应用而清空。请勿同时运行多个版本。
 6. 导入时选择复制或移动。完成后点“查看”定位本批内容，或“完成”关闭提示。
+
+图片缩略图支持常见 JPEG/JPG、PNG、HEIC、TIFF、GIF、BMP、WebP 文件；临时失败会有限重试，并提供“重新加载”。损坏或系统无法解码的图片不保证可预览；动图缩略图显示静态帧。文件预览由 macOS Quick Look 提供，具体格式支持取决于系统。
 
 ### 本地检索的能力与边界
 
@@ -60,10 +62,10 @@ Nearkeep 是一个本地优先的文件工作空间。把值得留下的文件�
 
 目前通过 [Releases](https://github.com/jayueseven/nearkeep-releases/releases) 手动更新，尚无自动更新。更新前正常退出、备份资料并保留原保存位置；所有历史版本的升级与回退组合尚未全面验证。
 
-- `v1.0.0-preview.N`：1.0 的预览迭代；Preview 2 接续 Preview 1，旧 Tag 与包保留。
-- `v1.0.0`：完成对应发布验收后的首个稳定版，不以预览版替代。
+- `v1.0.0-preview.N`：正式发布前的预览迭代。
+- `v1.0.0`：Nearkeep 1.0 正式版本。稳定版本号不等同于 Apple 公证或所有平台验证。
 - `v1.0.1`：兼容性修复；`v1.1.0`：兼容的新功能；`v2.0.0`：不兼容变更，须说明迁移影响。
-- 发布标题统一为 `Nearkeep 1.0.0 Preview 2` 等；每版提供独立包、说明与 SHA-256，不悄悄替换旧包。
+- 发布标题采用 `Nearkeep 1.0`、`Nearkeep 1.0.1` 等；每版提供独立包、说明与 SHA-256，不悄悄替换已发布包。
 
 反馈：[jayyueseven@gmail.com](mailto:jayyueseven@gmail.com)。请提供版本、系统和复现步骤，不发送私人文件、密码或令牌。
 
@@ -73,11 +75,11 @@ Nearkeep 是一个本地优先的文件工作空间。把值得留下的文件�
 
 Nearkeep is a local-first workspace for files worth keeping. Collect them with **Nicole**, your desktop companion, organize them in folders you control, and find them again by name, keywords or a description of their content.
 
-This preview focuses on **Collect → Organize → Find → Use**. Real folder management and local semantic retrieval are available today. A broader personal AI space is a product direction—not a claim that chat, generated summaries, persistent contextual understanding or cloud sync are included.
+Nearkeep 1.0 focuses on **Collect → Organize → Find → Use**. Real folder management and local semantic retrieval are available today. A broader personal AI space is a product direction—not a claim that chat, generated summaries, persistent contextual understanding or cloud sync are included.
 
 ### Download and requirements
 
-**[Download Nearkeep 1.0.0 Preview 2](https://github.com/jayueseven/nearkeep-releases/releases/tag/v1.0.0-preview.2)** · Free, unnotarized macOS preview
+**[Download Nearkeep 1.0](https://github.com/jayueseven/nearkeep-releases/releases/tag/v1.0.0)** · Free macOS release · Not notarized
 
 | Item | Current support |
 | --- | --- |
@@ -85,7 +87,7 @@ This preview focuses on **Collect → Organize → Find → Use**. Real folder m
 | System | Deployment target macOS 14; tested on macOS 27.0.1, not every intervening version |
 | Package | ZIP containing Nearkeep.app and a local retrieval model, approximately 618.5 MB; additional extraction space required |
 | Signing | Ad-hoc signed; no Developer ID signature or Apple notarization |
-| Status | Public preview; broader compatibility and installation lifecycle validation remain in progress |
+| Version | 1.0.0, build 20261103.1; compatibility across OS versions still needs broader validation |
 
 ### What you can do
 
@@ -98,7 +100,7 @@ This preview focuses on **Collect → Organize → Find → Use**. Real folder m
 
 ### Install and get started
 
-1. Download `Nearkeep-1.0.0-preview.2-macOS-arm64.zip` and `SHA256SUMS.txt` from the release page into one folder. Run:
+1. Download `Nearkeep-1.0.0-macOS-arm64.zip` and `SHA256SUMS.txt` from the release page into one folder. Run:
 
    ```sh
    shasum -a 256 -c SHA256SUMS.txt
@@ -106,10 +108,12 @@ This preview focuses on **Collect → Organize → Find → Use**. Real folder m
 
    The ZIP should report `OK`. This checks download integrity; it is not notarization or a comprehensive security audit.
 2. Extract **Nearkeep.app** and move it to Applications. Quit an older version normally before replacing the app. Keep your Library storage folder.
-3. macOS may block the first launch because this preview is not notarized. After checking the source and checksum, follow [Apple’s guidance](https://support.apple.com/en-us/102445) for that app. Do not disable system-wide protections. Stop and report any warning about malware, damage or corruption.
+3. macOS may block the first launch because this release is not notarized. After checking the source and checksum, follow [Apple’s guidance](https://support.apple.com/en-us/102445) for that app. Do not disable system-wide protections. Stop and report any warning about malware, damage or corruption.
 4. A **fresh profile** opens an empty Library and asks you to choose a dedicated storage folder. No developer location or sample files are prefilled. Cancelling does not import anything.
 5. **Existing users** retain their Library and storage location. Downloading the app again does not reset local data. Avoid running multiple versions simultaneously.
 6. Confirm Copy or Move when importing, then choose View to locate the imported items or Done to dismiss the receipt.
+
+Thumbnails support common JPEG/JPG, PNG, HEIC, TIFF, GIF, BMP and WebP images. Transient failures retry a limited number of times, with a manual Retry preview action. Corrupt or unsupported images may remain unavailable; animated thumbnails use a still frame. File previews use macOS Quick Look and depend on system format support.
 
 ### Local retrieval and privacy boundaries
 
@@ -125,10 +129,10 @@ Online accounts, cloud sync, a Windows client, and generative Q&A or summaries a
 
 Updates are manual through [Releases](https://github.com/jayueseven/nearkeep-releases/releases); automatic updates are not implemented. Quit normally and back up your data before updating. Keep the existing storage location. Every historical upgrade and downgrade combination has not been validated.
 
-- `v1.0.0-preview.N` identifies successive previews. Preview 2 follows Preview 1; old tags and packages remain available.
-- `v1.0.0` will identify the first stable release after its release checks are complete.
+- `v1.0.0-preview.N` identifies prerelease iterations.
+- `v1.0.0` identifies Nearkeep 1.0. A stable version number does not imply Apple notarization or validation on every platform.
 - Patch versions such as `v1.0.1` cover compatible fixes; minor versions such as `v1.1.0` add compatible features; major versions such as `v2.0.0` require explicit migration notes for incompatible changes.
-- Titles follow `Nearkeep 1.0.0 Preview 2`. Each release has a distinct package, notes and SHA-256; published packages are not silently replaced.
+- Titles use `Nearkeep 1.0`, `Nearkeep 1.0.1`, and so on. Each release has a distinct package, notes and SHA-256; published packages are not silently replaced.
 
 Feedback: [jayyueseven@gmail.com](mailto:jayyueseven@gmail.com). Include the app version, OS and reproduction steps. Do not send private documents, passwords or tokens.
 
