@@ -10,6 +10,16 @@ Nearkeep 是一个本地优先的文件工作空间。把值得留下的文件�
 
 Nearkeep 1.0 聚焦 **收集 → 整理 → 查找 → 使用**。它已经具备真实文件夹管理和本地语义检索；个人 AI 空间、持续理解上下文等属于长期方向，不代表本版提供聊天、生成式摘要或云同步。
 
+
+### 2026-11-04 安装包更新
+
+本次在原 **Nearkeep 1.0 / v1.0.0** 发布内更新安装包，应用版本与构建标识保持不变。请通过本次 SHA-256 区分新旧包。
+
+- **已有文件夹原位置管理**：设置中可关联本地文件夹，保留层级和空目录，不复制或移动源文件；解除关联保留原文件。在关联目录内改名、移动或删除会影响原文件，并保留操作确认。
+- **保存位置切换**：修复旧保存位置不可用时误判新空目录的情况；安全识别系统元数据和旧迁移残留，遇可能包含真实数据的冲突继续阻止覆盖。切换采用复制并保留旧文件，取消不改路径。
+- **设置与容量**：各文件夹可展开查看实际可读取内容的容量统计，调整分组留白，去除重复的常驻提示。
+- **Nicole 菜单**：改善跨应用与全屏空间中的右键响应，菜单及语言子菜单独立避让角色，并修复圆角外的浅色残留。不同全屏、多显示器布局仍需进一步覆盖。
+
 ### 下载与系统要求
 
 **[下载 Nearkeep 1.0](https://github.com/jayueseven/nearkeep-releases/releases/tag/v1.0.0)** · 免费 macOS 版 · 尚未公证
@@ -18,7 +28,7 @@ Nearkeep 1.0 聚焦 **收集 → 整理 → 查找 → 使用**。它已经具�
 | --- | --- |
 | 平台 | Apple Silicon（M 系列）Mac；暂不提供 Intel 或 Windows 安装包 |
 | 系统 | 构建最低目标 macOS 14；当前实测 macOS 27.0.1，尚未验收所有中间系统版本 |
-| 安装包 | ZIP，内含 Nearkeep.app 和本地检索模型，约 618.5 MB；需额外解压空间 |
+| 安装包 | ZIP，内含 Nearkeep.app 和本地检索模型，约 618.6 MB；需额外解压空间 |
 | 签名 | 临时签名（ad hoc），没有 Developer ID 签名或 Apple 公证 |
 | 版本 | 1.0.0，构建 20261103.1；各系统版本的兼容性仍需持续验证 |
 
@@ -65,7 +75,7 @@ Nearkeep 1.0 聚焦 **收集 → 整理 → 查找 → 使用**。它已经具�
 - `v1.0.0-preview.N`：正式发布前的预览迭代。
 - `v1.0.0`：Nearkeep 1.0 正式版本。稳定版本号不等同于 Apple 公证或所有平台验证。
 - `v1.0.1`：兼容性修复；`v1.1.0`：兼容的新功能；`v2.0.0`：不兼容变更，须说明迁移影响。
-- 发布标题采用 `Nearkeep 1.0`、`Nearkeep 1.0.1` 等；每版提供独立包、说明与 SHA-256，不悄悄替换已发布包。
+- 发布标题采用 `Nearkeep 1.0`、`Nearkeep 1.0.1` 等；常规更新提供独立包、说明与 SHA-256。本次按作者决定更新同一个 1.0 发布，更新日期和新校验和在发布页明确列出。
 
 反馈：[jayyueseven@gmail.com](mailto:jayyueseven@gmail.com)。请提供版本、系统和复现步骤，不发送私人文件、密码或令牌。
 
@@ -77,6 +87,16 @@ Nearkeep is a local-first workspace for files worth keeping. Collect them with *
 
 Nearkeep 1.0 focuses on **Collect → Organize → Find → Use**. Real folder management and local semantic retrieval are available today. A broader personal AI space is a product direction—not a claim that chat, generated summaries, persistent contextual understanding or cloud sync are included.
 
+
+### Package refresh — November 4, 2026
+
+The package is refreshed within the existing **Nearkeep 1.0 / v1.0.0** release. The app version and build identifier are unchanged; use the current SHA-256 to distinguish this package from the earlier download.
+
+- **Manage existing folders in place**: link a local folder in Settings without copying or moving its contents. Hierarchy and empty folders remain intact. Unlinking keeps originals; renaming, moving or deleting linked items affects the original files, with operation confirmations retained.
+- **Change the save location**: fixes an unavailable old location incorrectly blocking a valid empty destination. Known system metadata and safe migration remnants are handled without overwriting possible user data. Switching copies files and retains the old files; cancellation leaves the location unchanged.
+- **Settings and capacity**: expandable per-folder usage based on readable content, improved section spacing and fewer repeated notices.
+- **Nicole menus**: improved context-menu delivery across applications and fullscreen Spaces, with separate panels that avoid the companion, and a fix for pale artifacts outside rounded corners. Further coverage is needed for fullscreen and multi-display layouts.
+
 ### Download and requirements
 
 **[Download Nearkeep 1.0](https://github.com/jayueseven/nearkeep-releases/releases/tag/v1.0.0)** · Free macOS release · Not notarized
@@ -85,7 +105,7 @@ Nearkeep 1.0 focuses on **Collect → Organize → Find → Use**. Real folder m
 | --- | --- |
 | Hardware | Apple Silicon Macs; no Intel or Windows package yet |
 | System | Deployment target macOS 14; tested on macOS 27.0.1, not every intervening version |
-| Package | ZIP containing Nearkeep.app and a local retrieval model, approximately 618.5 MB; additional extraction space required |
+| Package | ZIP containing Nearkeep.app and a local retrieval model, approximately 618.6 MB; additional extraction space required |
 | Signing | Ad-hoc signed; no Developer ID signature or Apple notarization |
 | Version | 1.0.0, build 20261103.1; compatibility across OS versions still needs broader validation |
 
@@ -132,7 +152,7 @@ Updates are manual through [Releases](https://github.com/jayueseven/nearkeep-rel
 - `v1.0.0-preview.N` identifies prerelease iterations.
 - `v1.0.0` identifies Nearkeep 1.0. A stable version number does not imply Apple notarization or validation on every platform.
 - Patch versions such as `v1.0.1` cover compatible fixes; minor versions such as `v1.1.0` add compatible features; major versions such as `v2.0.0` require explicit migration notes for incompatible changes.
-- Titles use `Nearkeep 1.0`, `Nearkeep 1.0.1`, and so on. Each release has a distinct package, notes and SHA-256; published packages are not silently replaced.
+- Titles use `Nearkeep 1.0`, `Nearkeep 1.0.1`, and so on. Regular updates use distinct packages, notes and SHA-256 checksums. This author-requested 1.0 refresh updates the existing release and explicitly records its date and new checksum on the release page.
 
 Feedback: [jayyueseven@gmail.com](mailto:jayyueseven@gmail.com). Include the app version, OS and reproduction steps. Do not send private documents, passwords or tokens.
 
