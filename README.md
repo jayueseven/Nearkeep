@@ -2,7 +2,7 @@
 
 **让重要的，始终在身边。 · Keep what matters close.**
 
-[中文](#中文) · [English](#english) · [下载 / Download](https://github.com/jayueseven/nearkeep-releases/releases/tag/v1.0.0) · [版本记录 / Releases](https://github.com/jayueseven/nearkeep-releases/releases)
+[中文](#中文) · [English](#english) · [下载 / Download](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.0) · [版本记录 / Releases](https://github.com/jayueseven/Nearkeep/releases)
 
 ## 中文
 
@@ -11,10 +11,15 @@ Nearkeep 是一个本地优先的文件工作空间。把值得留下的文件�
 Nearkeep 1.0 聚焦 **收集 → 整理 → 查找 → 使用**。它已经具备真实文件夹管理和本地语义检索；个人 AI 空间、持续理解上下文等属于长期方向，不代表本版提供聊天、生成式摘要或云同步。
 
 
-### 2026-11-04 安装包更新
+### 2026-11-12 安装包更新
 
 本次在原 **Nearkeep 1.0 / v1.0.0** 发布内更新安装包，应用版本与构建标识保持不变。请通过本次 SHA-256 区分新旧包。
 
+- **Nicole 工作反馈**：上传、文件整理、文件夹关联与解除、保存位置处理和搜索等实际任务驱动已有工作动画；完成、取消或失败后恢复，不为普通导航点击制造持续工作状态。
+- **批量导入修复**：导入预检可识别格式明确且可安全跳过的 Nearkeep 内部元数据，避免历史内部记录阻断正常文件导入；未知或不符合格式的内部项继续保护并报告原因及路径。若选择移动的来源含这些内部记录，会保留来源并明确提示，而不会删除历史记录。
+- **导入确认弹窗**：修复“保存到 Nearkeep？”在浅色与深色外观下圆角外出现白色或黑色残留的问题。
+
+- **访达外部变更同步**：默认保存目录可识别外部新增、移动和改名，保留已跟踪对象的资料记录与收藏；失败时保留索引，不删除文件。大型目录可能有同步延迟。
 - **已有文件夹原位置管理**：设置中可关联本地文件夹，保留层级和空目录，不复制或移动源文件；解除关联保留原文件。在关联目录内改名、移动或删除会影响原文件，并保留操作确认。
 - **保存位置切换**：修复旧保存位置不可用时误判新空目录的情况；安全识别系统元数据和旧迁移残留，遇可能包含真实数据的冲突继续阻止覆盖。切换采用复制并保留旧文件，取消不改路径。
 - **设置与容量**：各文件夹可展开查看实际可读取内容的容量统计，调整分组留白，去除重复的常驻提示。
@@ -22,20 +27,20 @@ Nearkeep 1.0 聚焦 **收集 → 整理 → 查找 → 使用**。它已经具�
 
 ### 下载与系统要求
 
-**[下载 Nearkeep 1.0](https://github.com/jayueseven/nearkeep-releases/releases/tag/v1.0.0)** · 免费 macOS 版 · 尚未公证
+**[下载 Nearkeep 1.0](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.0)** · 免费 macOS 版 · 尚未公证
 
 | 项目 | 当前支持 |
 | --- | --- |
 | 平台 | Apple Silicon（M 系列）Mac；暂不提供 Intel 或 Windows 安装包 |
 | 系统 | 构建最低目标 macOS 14；当前实测 macOS 27.0.1，尚未验收所有中间系统版本 |
-| 安装包 | ZIP，内含 Nearkeep.app 和本地检索模型，约 618.6 MB；需额外解压空间 |
+| 安装包 | ZIP，内含 Nearkeep.app 和本地检索模型，约 618.7 MB；需额外解压空间 |
 | 签名 | 临时签名（ad hoc），没有 Developer ID 签名或 Apple 公证 |
 | 版本 | 1.0.0，构建 20261103.1；各系统版本的兼容性仍需持续验证 |
 
 ### 可以做什么
 
 - **收进来**：点击上传，或拖入资料库、桌面 Nicole；支持文件、文件夹和混合批量，保留嵌套结构及空文件夹。
-- **自己决定存法**：复制保存独立副本并保留原件；移动在安全保存成功后移出原位置；确认前可取消。
+- **自己决定存法**：复制保存独立副本并保留原件；移动在安全保存成功后移出原位置；确认前可取消。来源包含可识别的 Nearkeep 内部记录时，会提示保留来源。
 - **真实目录整理**：在自己选择的保存位置创建、重命名和移动文件夹，资料库与访达中的目录层级对应。收藏、常用文件夹和排序帮助快速访问。
 - **统一查找**：文件名和关键词检索先返回结果，需要时由本地 Qwen 语义检索补充；支持搜索历史及单条删除。
 - **找到后使用**：在资料库定位并查看详情，预览文件，或在访达中显示保存的副本。
@@ -70,7 +75,7 @@ Nearkeep 1.0 聚焦 **收集 → 整理 → 查找 → 使用**。它已经具�
 
 ### 更新、版本与反馈
 
-目前通过 [Releases](https://github.com/jayueseven/nearkeep-releases/releases) 手动更新，尚无自动更新。更新前正常退出、备份资料并保留原保存位置；所有历史版本的升级与回退组合尚未全面验证。
+目前通过 [Releases](https://github.com/jayueseven/Nearkeep/releases) 手动更新，尚无自动更新。更新前正常退出、备份资料并保留原保存位置；所有历史版本的升级与回退组合尚未全面验证。
 
 - `v1.0.0-preview.N`：正式发布前的预览迭代。
 - `v1.0.0`：Nearkeep 1.0 正式版本。稳定版本号不等同于 Apple 公证或所有平台验证。
@@ -88,10 +93,15 @@ Nearkeep is a local-first workspace for files worth keeping. Collect them with *
 Nearkeep 1.0 focuses on **Collect → Organize → Find → Use**. Real folder management and local semantic retrieval are available today. A broader personal AI space is a product direction—not a claim that chat, generated summaries, persistent contextual understanding or cloud sync are included.
 
 
-### Package refresh — November 4, 2026
+### Package refresh — November 12, 2026
 
 The package is refreshed within the existing **Nearkeep 1.0 / v1.0.0** release. The app version and build identifier are unchanged; use the current SHA-256 to distinguish this package from the earlier download.
 
+- **Nicole work feedback**: real import, file organization, folder linking/unlinking, storage and search tasks drive the existing working animation. Completion, cancellation and failure release the busy state; ordinary navigation does not create artificial long-running work.
+- **Batch import fix**: import checks recognize well-formed Nearkeep internal metadata that can safely be skipped, so historical internal records no longer block ordinary imports. Unknown or malformed internal items remain protected with a reason and path. A Move import containing recognized internal records keeps the source and explains this instead of deleting historical metadata.
+- **Import confirmation**: fixes pale and dark artifacts outside the rounded corners of the Save to Nearkeep confirmation in light and dark appearances.
+
+- **Finder change detection**: the default save location discovers external additions, moves and renames while retaining identities and favorites for tracked objects. Failed scans preserve the catalogue and never delete files. Large folders may take longer.
 - **Manage existing folders in place**: link a local folder in Settings without copying or moving its contents. Hierarchy and empty folders remain intact. Unlinking keeps originals; renaming, moving or deleting linked items affects the original files, with operation confirmations retained.
 - **Change the save location**: fixes an unavailable old location incorrectly blocking a valid empty destination. Known system metadata and safe migration remnants are handled without overwriting possible user data. Switching copies files and retains the old files; cancellation leaves the location unchanged.
 - **Settings and capacity**: expandable per-folder usage based on readable content, improved section spacing and fewer repeated notices.
@@ -99,20 +109,20 @@ The package is refreshed within the existing **Nearkeep 1.0 / v1.0.0** release. 
 
 ### Download and requirements
 
-**[Download Nearkeep 1.0](https://github.com/jayueseven/nearkeep-releases/releases/tag/v1.0.0)** · Free macOS release · Not notarized
+**[Download Nearkeep 1.0](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.0)** · Free macOS release · Not notarized
 
 | Item | Current support |
 | --- | --- |
 | Hardware | Apple Silicon Macs; no Intel or Windows package yet |
 | System | Deployment target macOS 14; tested on macOS 27.0.1, not every intervening version |
-| Package | ZIP containing Nearkeep.app and a local retrieval model, approximately 618.6 MB; additional extraction space required |
+| Package | ZIP containing Nearkeep.app and a local retrieval model, approximately 618.7 MB; additional extraction space required |
 | Signing | Ad-hoc signed; no Developer ID signature or Apple notarization |
 | Version | 1.0.0, build 20261103.1; compatibility across OS versions still needs broader validation |
 
 ### What you can do
 
 - Import files, folders or mixed batches through Upload, Library drag-and-drop or desktop Nicole. Nested and empty folders are preserved.
-- Choose **Copy** to keep the original and save a separate copy, or **Move** to remove it from its original location after a successful safe save. Cancel before import begins.
+- Choose **Copy** to keep the original and save a separate copy, or **Move** to remove it from its original location after a successful safe save. Cancel before import begins. Sources containing recognized Nearkeep internal records are retained, with an explicit notice.
 - Create, rename and move real folders under your chosen storage location. Library folders correspond to Finder directories; favorites, pinned folders and sorting provide shortcuts.
 - Search by name or keywords, with local Qwen semantic retrieval supplementing results when needed. Search history supports individual deletion.
 - Locate results in the Library, inspect details, preview files or reveal the saved copy in Finder.
@@ -147,7 +157,7 @@ Online accounts, cloud sync, a Windows client, and generative Q&A or summaries a
 
 ### Updates, versions and feedback
 
-Updates are manual through [Releases](https://github.com/jayueseven/nearkeep-releases/releases); automatic updates are not implemented. Quit normally and back up your data before updating. Keep the existing storage location. Every historical upgrade and downgrade combination has not been validated.
+Updates are manual through [Releases](https://github.com/jayueseven/Nearkeep/releases); automatic updates are not implemented. Quit normally and back up your data before updating. Keep the existing storage location. Every historical upgrade and downgrade combination has not been validated.
 
 - `v1.0.0-preview.N` identifies prerelease iterations.
 - `v1.0.0` identifies Nearkeep 1.0. A stable version number does not imply Apple notarization or validation on every platform.
