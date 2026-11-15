@@ -2,10 +2,14 @@
 
 <p align="center"><strong>让重要的，始终在身边。</strong></p>
 
-<p align="center">一个本地优先的 macOS 文件工作空间，有 Nicole 陪在身边。<br />收集文件，用真实文件夹整理，在自己的 Mac 上找回需要的内容。</p>
+<p align="center">一个本地优先的个人文件工作空间，有 Nicole 陪在身边。<br />收集值得留下的文件，在自己掌控的文件夹里整理，需要时再找回来。</p>
 
 <p align="center">
   <a href="https://github.com/jayueseven/Nearkeep/releases/latest"><strong>下载 Mac 版</strong></a> ·
+  <strong>下载 Windows 版 — 即将到来</strong>
+</p>
+
+<p align="center">
   <a href="#开始使用">开始使用</a> ·
   <a href="https://github.com/jayueseven/Nearkeep/releases">版本记录</a> ·
   <a href="https://github.com/jayueseven/Nearkeep/issues">反馈</a>
@@ -13,7 +17,7 @@
 
 <p align="center"><a href="./README.md">English</a> · <strong>简体中文</strong></p>
 
-<p align="center">免费下载 · Apple Silicon Mac</p>
+<p align="center">免费下载 · macOS 版已发布 · Windows 版尚未公开发布</p>
 
 <p align="center"><img src="./assets/readme/nearkeep-library.jpg" alt="Nearkeep 资料库：文件分类、文件夹和 Nicole 搜索栏" width="800" /></p>
 
@@ -21,9 +25,11 @@
 
 截图、参考图片、PDF 和项目资料，存下来之后，也应该容易找回来。Nearkeep 把它们带进一个本地工作空间：收取新文件，关联已有文件夹，不必记住每个文件名，也能查找需要的内容。
 
-**Nicole** 是你的桌面伴侣。把文件拖给她就能收取；导入、整理和搜索时，她会用动作回应正在进行的工作。
+**Nicole** 是你的桌面伴侣，也是随手收取文件的入口。把文件拖给她，通过 **Pocket** 收纳，再到 **Library 资料库** 浏览和整理。导入、整理和搜索时，她会用动作回应真实进行中的工作。
 
 ## 收集、整理、查找、使用
+
+当前 macOS 版本已提供：
 
 | 你想做的事 | Nearkeep 如何帮你 |
 | --- | --- |
@@ -34,9 +40,18 @@
 
 支持中英文界面、浅深色主题，以及桌面伴侣显示设置。
 
+## 从顺手存下，到再次用上
+
+- **收下参考，继续手头的事。** 把截图或设计参考图拖给 Nicole，选择复制或移动，收好后继续工作，需要时再到资料库查看。
+- **记得内容，也能试着找回。** 忘了文件名，但记得主题？在搜索中描述它，本地语义检索可以从已建立索引的受支持文本中找出相关片段，再打开原文核对。
+- **已有资料，不用搬家。** 在设置中关联项目或参考资料文件夹，保持原位置和目录结构，无须把整套资料再复制一遍。
+
 ## 开始使用
 
-**[下载 Nearkeep Mac 版](https://github.com/jayueseven/Nearkeep/releases/latest)**
+| 平台 | 发布状态 | 下载 |
+| --- | --- | --- |
+| macOS · Apple Silicon | 已发布 | [下载 Mac 版](https://github.com/jayueseven/Nearkeep/releases/latest) |
+| Windows | 即将到来 · 尚未公开发布 | **下载 Windows 版 — 即将到来** |
 
 当前版本面向 **Apple Silicon Mac**。最低构建目标为 macOS 14，公开记录的实测环境为 macOS 27.0.1，其他版本尚未全面验收。应用使用**临时签名，尚未通过 Apple 公证**，首次打开可能被 macOS 阻止。
 
@@ -48,17 +63,24 @@
 
 ## 在本机处理
 
-文件管理、索引和语义检索在你的 Mac 上运行，不将文档正文发送给云端 AI。系统服务和外部链接仍可能联网。
+文件保存在你选择的文件夹中，离开 Nearkeep 也能访问。文件管理、索引和语义检索在你的电脑本地运行，不将文档正文发送给云端 AI。系统服务和外部链接仍可能联网。
 
 正文检索支持有文字层的 PDF 和受支持的文本文件；扫描 PDF、Office 文档正文暂不支持，长文件可能仅覆盖部分内容。语义结果用于帮助定位片段，请结合原文核对。详见[搜索与隐私说明](./docs/search-and-privacy.zh-CN.md)。
 
-当前尚未提供聊天、生成式摘要、云同步，以及 Windows 或 Intel Mac 安装包。
+当前公开版本尚未提供聊天、生成式摘要、云同步或 Intel Mac 安装包。
+
+<details>
+<summary>规划中：Ask Nicole 与时间轴导航</summary>
+
+未来方向包括：围绕个人资料提问并获得带原文出处的回答、按时间找回收集过的内容，以及覆盖更多内容格式。这些能力仍在规划中，不属于当前公开版本，尚未公布发布日期。
+
+</details>
 
 ## 更新与反馈
 
 在 [Releases](https://github.com/jayueseven/Nearkeep/releases) 查看更新内容并手动下载新版。更新前正常退出 Nearkeep，保留保存文件夹，并为重要资料做好独立备份。
 
-发现问题或有建议？可以[提交 Issue](https://github.com/jayueseven/Nearkeep/issues)，或发邮件至 [jayyueseven@gmail.com](mailto:jayyueseven@gmail.com)。问题反馈请附应用版本、macOS 版本和复现步骤，避免附带私人文件与凭据。
+发现问题或有建议？可以[提交 Issue](https://github.com/jayueseven/Nearkeep/issues)，或发邮件至 [jayyueseven@gmail.com](mailto:jayyueseven@gmail.com)。问题反馈请附应用版本、操作系统版本和复现步骤，避免附带私人文件与凭据。
 
 ---
 
