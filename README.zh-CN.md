@@ -78,6 +78,8 @@
 
 ## 更新与反馈
 
+最新版本：**[Nearkeep 1.0.1](./docs/releases/v1.0.1.zh-CN.md)** — 修复快捷键编辑，优化设置细节。
+
 在 [Releases](https://github.com/jayueseven/Nearkeep/releases) 查看更新内容并手动下载新版。更新前正常退出 Nearkeep，保留保存文件夹，并为重要资料做好独立备份。
 
 发现问题或有建议？可以[提交 Issue](https://github.com/jayueseven/Nearkeep/issues)，或发邮件至 [jayyueseven@gmail.com](mailto:jayyueseven@gmail.com)。问题反馈请附应用版本、操作系统版本和复现步骤，避免附带私人文件与凭据。
@@ -85,3 +87,4 @@
 ---
 
 本仓库提供产品说明与下载，Nearkeep 应用工程源码暂不公开。第三方许可说明随应用提供。
+

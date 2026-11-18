@@ -9,12 +9,12 @@
 | 硬件 | Apple Silicon Mac；暂无 Intel 或 Windows 安装包 |
 | macOS | 最低构建目标为 macOS 14；公开实测为 macOS 27.0.1，其他版本尚未全面验收 |
 | 安装包 | 内含 Nearkeep.app 和本地搜索模型；约 619 MB，另需解压空间 |
-| 版本 | 1.0.0，构建 20261103.1 |
+| 版本 | 1.0.1，构建 20261119.1 |
 | 签名 | 临时签名；没有 Developer ID 签名或 Apple 公证 |
 
 ## 1. 下载并校验
 
-从[官方版本页](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.0)下载 `Nearkeep-1.0.0-macOS-arm64.zip` 与 `SHA256SUMS.txt`，放在同一文件夹。在该文件夹打开终端，运行：
+从[官方版本页](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.1)下载 `Nearkeep-1.0.1-macOS-arm64.zip` 与 `SHA256SUMS.txt`，放在同一文件夹。在该文件夹打开终端，运行：
 
 ```sh
 shasum -a 256 -c SHA256SUMS.txt
@@ -22,7 +22,7 @@ shasum -a 256 -c SHA256SUMS.txt
 
 ZIP 文件名后应显示 `OK`。校验和用于确认下载一致性，不能替代公证或安全审计。
 
-2026 年 11 月 12 日的安装包更新沿用原版本与构建标识，请使用版本页的当前校验和区分新旧包。
+1.0.1 使用独立标签、安装包与构建标识；此前的 1.0.0 版本继续保留。
 
 ## 2. 安装与打开
 
@@ -44,10 +44,11 @@ ZIP 文件名后应显示 `OK`。校验和用于确认下载一致性，不能�
 
 ## 日常使用与更新
 
-- 在设置中录制快速搜索快捷键；Nearkeep 运行时才能使用。
+- 在设置中录制或清空快捷键。窗口与快速搜索在 Nearkeep 运行时全局生效；Nicole 快捷键仅在资料库窗口前台、设置及其他弹层关闭时生效。
 - 文件预览由 macOS Quick Look 提供，具体格式支持取决于系统。常见图片缩略图包括 JPEG/JPG、PNG、HEIC、TIFF、GIF、BMP、WebP；动图显示静态帧，损坏或不受支持的文件可能无法预览。临时失败会有限重试，也可手动重新加载。
 - 默认保存目录会识别访达中的新增、移动与改名，大型文件夹可能有同步延迟。扫描范围及旧文件处理细节见[版本记录](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.0)。
 - 通过 [Releases](https://github.com/jayueseven/Nearkeep/releases) 手动更新。更新前正常退出、备份重要资料并保留保存位置；并非所有历史版本的升级、回退组合都已验证。
 - 不要同时运行多个 Nearkeep 版本；本地开发版与发行版目前共享资料身份。
 
 [搜索与隐私说明](./search-and-privacy.zh-CN.md) · [反馈问题](https://github.com/jayueseven/Nearkeep/issues)
+

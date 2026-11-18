@@ -78,6 +78,8 @@ Future directions include asking questions about your files with answers linked 
 
 ## Updates & feedback
 
+Latest: **[Nearkeep 1.0.1](./docs/releases/v1.0.1.md)** — editable shortcuts and refined Settings.
+
 See [Releases](https://github.com/jayueseven/Nearkeep/releases) for changes and manual updates. Quit Nearkeep before updating, keep your storage folder, and maintain an independent backup.
 
 Have a bug or an idea? [Open an issue](https://github.com/jayueseven/Nearkeep/issues) or email [jayyueseven@gmail.com](mailto:jayyueseven@gmail.com). For bugs, include your app version, operating system version and steps to reproduce. Please leave out private files and credentials.
@@ -85,3 +87,4 @@ Have a bug or an idea? [Open an issue](https://github.com/jayueseven/Nearkeep/is
 ---
 
 This repository provides product information and downloads. The Nearkeep application source is private. Third-party notices are included in the app.
+
