@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/jayueseven/Nearkeep/releases/latest"><strong>Download for Mac</strong></a> ·
-  <strong>Download for Windows — coming soon</strong>
+  <a href="https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.1-windows"><strong>Download for Windows</strong></a>
 </p>
 
 <p align="center">
@@ -17,7 +17,7 @@
 
 <p align="center"><strong>English</strong> · <a href="./README.zh-CN.md">简体中文</a></p>
 
-<p align="center">Free to download · macOS available · Windows not yet publicly released</p>
+<p align="center">Free to download · macOS available · Windows x64 available</p>
 
 <p align="center"><img src="./assets/readme/nearkeep-library.jpg" alt="Nearkeep Library with file categories, folders and Nicole's search bar" width="800" /></p>
 
