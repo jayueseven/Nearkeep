@@ -51,9 +51,11 @@ English and Chinese interfaces. Light and dark themes. Adjustable desktop compan
 | Platform | Availability | Download |
 | --- | --- | --- |
 | macOS · Apple Silicon | Available now | [Download for Mac](https://github.com/jayueseven/Nearkeep/releases/latest) |
-| Windows | Coming soon · Not yet publicly released | **Download for Windows — coming soon** |
+| Windows · x64 | Available now | [Download for Windows](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.1-windows) |
 
 Current release: **Apple Silicon Mac**, deployment target **macOS 14**. Tested on macOS 27.0.1; other versions are not fully validated. **Ad-hoc signed and not Apple-notarized**; macOS may block the first launch.
+
+**Windows x64:** Download the EXE from the Windows release page and follow the [Windows installation instructions](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.1-windows).
 
 1. Download the ZIP and checksum file from the release page. Follow the [installation guide](./docs/getting-started.md) to verify and install.
 2. Open Nearkeep and choose a dedicated storage folder on first use.
