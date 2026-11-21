@@ -14,13 +14,13 @@
 
 ## 1. 下载并校验
 
-从[官方版本页](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.1)下载 `Nearkeep-1.0.1-macOS-arm64.zip` 与 `SHA256SUMS.txt`，放在同一文件夹。在该文件夹打开终端，运行：
+从[官方版本页](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.1)下载 `Nearkeep-1.0.1-macOS-arm64.zip`。在下载文件夹打开终端，运行：
 
 ```sh
-shasum -a 256 -c SHA256SUMS.txt
+shasum -a 256 'Nearkeep-1.0.1-macOS-arm64.zip'
 ```
 
-ZIP 文件名后应显示 `OK`。校验和用于确认下载一致性，不能替代公证或安全审计。
+输出的校验值应为 `3dde4df44400fc11ce7a1e8d317ba7668a07482876d612a9164d592243412072`。校验和用于确认下载一致性，不能替代公证或安全审计。
 
 1.0.1 使用独立标签、安装包与构建标识；此前的 1.0.0 版本继续保留。
 

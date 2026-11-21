@@ -14,13 +14,13 @@
 
 ## 1. Download and verify
 
-Get `Nearkeep-1.0.1-macOS-arm64.zip` and `SHA256SUMS.txt` from the [official release](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.1). Put them in one folder. Open Terminal in that folder and run:
+Get `Nearkeep-1.0.1-macOS-arm64.zip` from the [official release](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.1). Open Terminal in the download folder and run:
 
 ```sh
-shasum -a 256 -c SHA256SUMS.txt
+shasum -a 256 'Nearkeep-1.0.1-macOS-arm64.zip'
 ```
 
-The ZIP filename should be followed by `OK`. A checksum verifies download integrity; it does not replace notarization or a security audit.
+The checksum should match `3dde4df44400fc11ce7a1e8d317ba7668a07482876d612a9164d592243412072`. A checksum verifies download integrity; it does not replace notarization or a security audit.
 
 Version 1.0.1 has its own tag, package and build identifier. The previous 1.0.0 release remains available.
 
