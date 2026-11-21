@@ -23,7 +23,7 @@ Importing a file, previewing it and searching its contents are separate capabili
 
 ## What stays local
 
-Current file management, indexing and model retrieval run on your Mac. Document text is not sent to cloud AI. OS security checks, email feedback and external content you choose to open may use the network.
+Current file management, indexing and model retrieval run on your computer. Document text is not sent to cloud AI. OS security checks, email feedback and external content you choose to open may use the network.
 
 Comprehensive offline and network-traffic audits are not complete. Local processing should not be read as a guarantee of complete offline operation in every scenario or absolute security.
 

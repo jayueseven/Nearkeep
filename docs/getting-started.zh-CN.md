@@ -1,13 +1,15 @@
-# 安装 Nearkeep
+# 在 macOS 上安装 Nearkeep
 
 [返回 README](../README.zh-CN.md) · [English](./getting-started.md)
+
+使用 Windows？请看 [Windows x64 下载与安装说明](./releases/v1.0.1-windows.zh-CN.md)。
 
 ## 下载前
 
 | 项目 | 当前版本 |
 | --- | --- |
-| 硬件 | Apple Silicon Mac；暂无 Intel 或 Windows 安装包 |
-| macOS | 最低构建目标为 macOS 14；公开实测为 macOS 27.0.1，其他版本尚未全面验收 |
+| 硬件 | Apple Silicon Mac；暂无 Intel Mac 安装包 |
+| macOS | 最低构建目标为 macOS 14；测试范围见 [macOS 版本说明](./releases/v1.0.1.zh-CN.md) |
 | 安装包 | 内含 Nearkeep.app 和本地搜索模型；约 619 MB，另需解压空间 |
 | 版本 | 1.0.1，构建 20261119.1 |
 | 签名 | 临时签名；没有 Developer ID 签名或 Apple 公证 |
@@ -22,7 +24,7 @@ shasum -a 256 'Nearkeep-1.0.1-macOS-arm64.zip'
 
 输出的校验值应为 `3dde4df44400fc11ce7a1e8d317ba7668a07482876d612a9164d592243412072`。校验和用于确认下载一致性，不能替代公证或安全审计。
 
-1.0.1 使用独立标签、安装包与构建标识；此前的 1.0.0 版本继续保留。
+1.0.1 使用独立标签、安装包与构建标识；此前的 1.0.0 版本说明仍可查阅。
 
 ## 2. 安装与打开
 

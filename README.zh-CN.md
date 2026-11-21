@@ -53,7 +53,7 @@
 | macOS · Apple Silicon | 已发布 | [下载 Mac 版](https://github.com/jayueseven/Nearkeep/releases/latest) |
 | Windows · x64 | 已发布 | [下载 Windows 版](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.1-windows) |
 
-当前版本面向 **Apple Silicon Mac**。最低构建目标为 macOS 14，公开记录的实测环境为 macOS 27.0.1，其他版本尚未全面验收。应用使用**临时签名，尚未通过 Apple 公证**，首次打开可能被 macOS 阻止。
+**macOS：**适用于 Apple Silicon，最低构建目标为 macOS 14。测试范围见 [macOS 版本说明](./docs/releases/v1.0.1.zh-CN.md)。应用使用**临时签名，尚未通过 Apple 公证**，首次打开可能被 macOS 阻止。
 
 **Windows x64：**从 Windows 版本页下载 EXE 安装包，按 [Windows 安装说明](./docs/releases/v1.0.1-windows.zh-CN.md)完成校验与安装。
 
@@ -80,7 +80,7 @@
 
 ## 更新与反馈
 
-最新版本：**[Nearkeep 1.0.1](./docs/releases/v1.0.1.zh-CN.md)** — 修复快捷键编辑，优化设置细节。
+最新版本：**[macOS 1.0.1](./docs/releases/v1.0.1.zh-CN.md)** · **[Windows x64 1.0.1](./docs/releases/v1.0.1-windows.zh-CN.md)**。
 
 在 [Releases](https://github.com/jayueseven/Nearkeep/releases) 查看更新内容并手动下载新版。更新前正常退出 Nearkeep，保留保存文件夹，并为重要资料做好独立备份。
 

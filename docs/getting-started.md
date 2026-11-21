@@ -1,13 +1,15 @@
-# Install Nearkeep
+# Install Nearkeep on macOS
 
 [Back to README](../README.md) · [简体中文](./getting-started.zh-CN.md)
+
+On Windows? See the [Windows x64 download and installation instructions](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.1-windows).
 
 ## Before you download
 
 | Item | Current release |
 | --- | --- |
-| Hardware | Apple Silicon Mac; no Intel or Windows package |
-| macOS | Deployment target: macOS 14. Published testing: macOS 27.0.1; other versions are not fully validated. |
+| Hardware | Apple Silicon Mac; no Intel Mac package |
+| macOS | Deployment target: macOS 14. See the [macOS release](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.1) for test coverage. |
 | Package | Nearkeep.app and a local search model; about 619 MB, plus extraction space |
 | Version | 1.0.1, build 20261119.1 |
 | Signing | Ad-hoc signed; no Developer ID signature or Apple notarization |
@@ -22,7 +24,7 @@ shasum -a 256 'Nearkeep-1.0.1-macOS-arm64.zip'
 
 The checksum should match `3dde4df44400fc11ce7a1e8d317ba7668a07482876d612a9164d592243412072`. A checksum verifies download integrity; it does not replace notarization or a security audit.
 
-Version 1.0.1 has its own tag, package and build identifier. The previous 1.0.0 release remains available.
+Version 1.0.1 has its own tag, package and build identifier. The 1.0.0 release notes are available for reference.
 
 ## 2. Install and open
 

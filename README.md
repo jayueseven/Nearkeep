@@ -53,7 +53,7 @@ English and Chinese interfaces. Light and dark themes. Adjustable desktop compan
 | macOS · Apple Silicon | Available now | [Download for Mac](https://github.com/jayueseven/Nearkeep/releases/latest) |
 | Windows · x64 | Available now | [Download for Windows](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.1-windows) |
 
-Current release: **Apple Silicon Mac**, deployment target **macOS 14**. Tested on macOS 27.0.1; other versions are not fully validated. **Ad-hoc signed and not Apple-notarized**; macOS may block the first launch.
+**macOS:** Apple Silicon, deployment target **macOS 14**. See the [macOS release](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.1) for test coverage. **Ad-hoc signed and not Apple-notarized**; macOS may block the first launch.
 
 **Windows x64:** Download the EXE from the Windows release page and follow the [Windows installation instructions](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.1-windows).
 
@@ -80,7 +80,7 @@ Future directions include asking questions about your files with answers linked 
 
 ## Updates & feedback
 
-Latest: **[Nearkeep 1.0.1](./docs/releases/v1.0.1.md)** — editable shortcuts and refined Settings.
+Current releases: **[macOS 1.0.1](./docs/releases/v1.0.1.md)** · **[Windows x64 1.0.1](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.1-windows)**.
 
 See [Releases](https://github.com/jayueseven/Nearkeep/releases) for changes and manual updates. Quit Nearkeep before updating, keep your storage folder, and maintain an independent backup.
 
