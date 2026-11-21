@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/jayueseven/Nearkeep/releases/latest"><strong>下载 Mac 版</strong></a> ·
-  <strong>下载 Windows 版 — 即将到来</strong>
+  <a href="https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.1-windows"><strong>下载 Windows 版</strong></a>
 </p>
 
 <p align="center">
@@ -17,7 +17,7 @@
 
 <p align="center"><a href="./README.md">English</a> · <strong>简体中文</strong></p>
 
-<p align="center">免费下载 · macOS 版已发布 · Windows 版尚未公开发布</p>
+<p align="center">免费下载 · macOS 版已发布 · Windows x64 版已发布</p>
 
 <p align="center"><img src="./assets/readme/nearkeep-library.jpg" alt="Nearkeep 资料库：文件分类、文件夹和 Nicole 搜索栏" width="800" /></p>
 
@@ -51,9 +51,11 @@
 | 平台 | 发布状态 | 下载 |
 | --- | --- | --- |
 | macOS · Apple Silicon | 已发布 | [下载 Mac 版](https://github.com/jayueseven/Nearkeep/releases/latest) |
-| Windows | 即将到来 · 尚未公开发布 | **下载 Windows 版 — 即将到来** |
+| Windows · x64 | 已发布 | [下载 Windows 版](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.1-windows) |
 
 当前版本面向 **Apple Silicon Mac**。最低构建目标为 macOS 14，公开记录的实测环境为 macOS 27.0.1，其他版本尚未全面验收。应用使用**临时签名，尚未通过 Apple 公证**，首次打开可能被 macOS 阻止。
+
+**Windows x64：**从 Windows 版本页下载 EXE 安装包，按 [Windows 安装说明](./docs/releases/v1.0.1-windows.zh-CN.md)完成校验与安装。
 
 1. 从版本页下载 ZIP 和校验文件，按[安装指南](./docs/getting-started.zh-CN.md)完成校验与安装。
 2. 首次打开 Nearkeep，选择专用保存文件夹。
