@@ -14,15 +14,9 @@
 | 版本 | 1.0.1，构建 20261119.1 |
 | 签名 | 临时签名；没有 Developer ID 签名或 Apple 公证 |
 
-## 1. 下载并校验
+## 1. 下载
 
-从[官方版本页](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.1)下载 `Nearkeep-1.0.1-macOS-arm64.zip`。在下载文件夹打开终端，运行：
-
-```sh
-shasum -a 256 'Nearkeep-1.0.1-macOS-arm64.zip'
-```
-
-输出的校验值应为 `3dde4df44400fc11ce7a1e8d317ba7668a07482876d612a9164d592243412072`。校验和用于确认下载一致性，不能替代公证或安全审计。
+从[官方版本页](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.1)下载 `Nearkeep-1.0.1-macOS-arm64.zip`。
 
 1.0.1 使用独立标签、安装包与构建标识；此前的 1.0.0 版本说明仍可查阅。
 
@@ -30,7 +24,7 @@ shasum -a 256 'Nearkeep-1.0.1-macOS-arm64.zip'
 
 解压 ZIP，将 **Nearkeep.app** 放入“应用程序”。已有版本请先正常退出，再替换应用；保留原资料库保存文件夹。
 
-当前应用未公证，首次打开可能被 macOS 阻止。确认来源与校验和后，按 [Apple 官方说明](https://support.apple.com/en-us/102445)处理具体提示。不要关闭系统整体保护；若提示恶意软件、会损害电脑或文件损坏，请停止并反馈。
+当前应用未公证，首次打开可能被 macOS 阻止。确认安装包来自官方页面后，按 [Apple 官方说明](https://support.apple.com/en-us/102445)处理具体提示。不要关闭系统整体保护；若提示恶意软件、会损害电脑或文件损坏，请停止并反馈。
 
 ## 3. 选择文件的保存方式
 
@@ -54,3 +48,21 @@ shasum -a 256 'Nearkeep-1.0.1-macOS-arm64.zip'
 
 [搜索与隐私说明](./search-and-privacy.zh-CN.md) · [反馈问题](https://github.com/jayueseven/Nearkeep/issues)
 
+<details>
+<summary>校验安装包（可选）</summary>
+
+如需确认下载的文件与官方发布一致，请在下载文件夹打开终端，运行：
+
+```sh
+shasum -a 256 'Nearkeep-1.0.1-macOS-arm64.zip'
+```
+
+预期 SHA-256：
+
+```text
+3dde4df44400fc11ce7a1e8d317ba7668a07482876d612a9164d592243412072
+```
+
+如果校验值不一致，请勿安装，并从官方入口重新下载。
+
+</details>

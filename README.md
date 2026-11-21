@@ -57,7 +57,7 @@ English and Chinese interfaces. Light and dark themes. Adjustable desktop compan
 
 **Windows x64:** Download the EXE from the Windows release page and follow the [Windows installation instructions](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.1-windows).
 
-1. On macOS, download the ZIP from the release page. Follow the [installation guide](./docs/getting-started.md) to verify and install.
+1. On macOS, download the ZIP from the release page. Follow the [installation guide](./docs/getting-started.md) to install.
 2. Open Nearkeep and choose a dedicated storage folder on first use.
 3. Import your first files, or link an existing folder in Settings.
 

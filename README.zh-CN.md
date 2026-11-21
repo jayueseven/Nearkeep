@@ -55,9 +55,9 @@
 
 **macOS：**适用于 Apple Silicon，最低构建目标为 macOS 14。测试范围见 [macOS 版本说明](./docs/releases/v1.0.1.zh-CN.md)。应用使用**临时签名，尚未通过 Apple 公证**，首次打开可能被 macOS 阻止。
 
-**Windows x64：**从 Windows 版本页下载 EXE 安装包，按 [Windows 安装说明](./docs/releases/v1.0.1-windows.zh-CN.md)完成校验与安装。
+**Windows x64：**从 Windows 版本页下载 EXE 安装包，按 [Windows 安装说明](./docs/releases/v1.0.1-windows.zh-CN.md)完成安装。
 
-1. macOS 用户从版本页下载 ZIP，按[安装指南](./docs/getting-started.zh-CN.md)完成校验与安装。
+1. macOS 用户从版本页下载 ZIP，按[安装指南](./docs/getting-started.zh-CN.md)完成安装。
 2. 首次打开 Nearkeep，选择专用保存文件夹。
 3. 导入第一批文件，或在设置中关联已有文件夹。
 

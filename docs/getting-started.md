@@ -14,15 +14,9 @@ On Windows? See the [Windows x64 download and installation instructions](https:/
 | Version | 1.0.1, build 20261119.1 |
 | Signing | Ad-hoc signed; no Developer ID signature or Apple notarization |
 
-## 1. Download and verify
+## 1. Download
 
-Get `Nearkeep-1.0.1-macOS-arm64.zip` from the [official release](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.1). Open Terminal in the download folder and run:
-
-```sh
-shasum -a 256 'Nearkeep-1.0.1-macOS-arm64.zip'
-```
-
-The checksum should match `3dde4df44400fc11ce7a1e8d317ba7668a07482876d612a9164d592243412072`. A checksum verifies download integrity; it does not replace notarization or a security audit.
+Get `Nearkeep-1.0.1-macOS-arm64.zip` from the [official release](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.1).
 
 Version 1.0.1 has its own tag, package and build identifier. The 1.0.0 release notes are available for reference.
 
@@ -30,7 +24,7 @@ Version 1.0.1 has its own tag, package and build identifier. The 1.0.0 release n
 
 Extract the ZIP and move **Nearkeep.app** to Applications. If updating, quit the older app normally before replacing it. Keep your existing Library storage folder.
 
-The current app is not notarized, so macOS may block the first launch. After verifying the source and checksum, follow [Apple's guidance](https://support.apple.com/en-us/102445) for the specific warning. Do not disable system-wide protections. Stop and report warnings about malware, damage or corruption.
+The current app is not notarized, so macOS may block the first launch. After confirming you downloaded from the official release, follow [Apple's guidance](https://support.apple.com/en-us/102445) for the specific warning. Do not disable system-wide protections. Stop and report warnings about malware, damage or corruption.
 
 ## 3. Choose where files live
 
@@ -54,3 +48,21 @@ Nested and empty folders are preserved. After import, choose View to locate the 
 
 [Search and privacy details](./search-and-privacy.md) · [Report an issue](https://github.com/jayueseven/Nearkeep/issues)
 
+<details>
+<summary>Verify the installer (optional)</summary>
+
+To check that your download matches the published file, open Terminal in the download folder and run:
+
+```sh
+shasum -a 256 'Nearkeep-1.0.1-macOS-arm64.zip'
+```
+
+Expected SHA-256:
+
+```text
+3dde4df44400fc11ce7a1e8d317ba7668a07482876d612a9164d592243412072
+```
+
+If the values do not match, do not install the file. Download it again from the official release.
+
+</details>
