@@ -5,7 +5,7 @@
 <p align="center">A local-first workspace for files worth keeping, with Nicole by your side.<br />Collect files, organize them in folders you control, and find them when you need them.</p>
 
 <p align="center">
-  <a href="https://github.com/jayueseven/Nearkeep/releases/latest"><strong>Download for Mac</strong></a> ·
+  <a href="https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.2"><strong>Download for Mac</strong></a> ·
   <a href="https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.1-windows"><strong>Download for Windows</strong></a>
 </p>
 
@@ -50,10 +50,10 @@ English and Chinese interfaces. Light and dark themes. Adjustable desktop compan
 
 | Platform | Availability | Download |
 | --- | --- | --- |
-| macOS · Apple Silicon | Available now | [Download for Mac](https://github.com/jayueseven/Nearkeep/releases/latest) |
+| macOS · Apple Silicon | Available now | [Download for Mac](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.2) |
 | Windows · x64 | Available now | [Download for Windows](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.1-windows) |
 
-**macOS:** Apple Silicon, deployment target **macOS 14**. See the [macOS release](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.1) for test coverage. **Ad-hoc signed and not Apple-notarized**; macOS may block the first launch.
+**macOS:** Apple Silicon, deployment target **macOS 14**. See the [macOS release](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.2) for test coverage. **Ad-hoc signed and not Apple-notarized**; macOS may block the first launch.
 
 **Windows x64:** Download the EXE from the Windows release page and follow the [Windows installation instructions](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.1-windows).
 
@@ -80,7 +80,7 @@ Future directions include asking questions about your files with answers linked 
 
 ## Updates & feedback
 
-Current releases: **[macOS 1.0.1](./docs/releases/v1.0.1.md)** · **[Windows x64 1.0.1](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.1-windows)**.
+Current releases: **[macOS 1.0.2](./docs/releases/v1.0.2.md)** · **[Windows x64 1.0.1](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.1-windows)**.
 
 See [Releases](https://github.com/jayueseven/Nearkeep/releases) for changes and manual updates. Quit Nearkeep before updating, keep your storage folder, and maintain an independent backup.
 
