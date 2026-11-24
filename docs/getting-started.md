@@ -2,7 +2,7 @@
 
 [Back to README](../README.md) · [简体中文](./getting-started.zh-CN.md)
 
-On Windows? See the [Windows x64 download and installation instructions](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.1-windows).
+On Windows? See the [Windows x64 download and installation instructions](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.2-windows).
 
 ## Before you download
 

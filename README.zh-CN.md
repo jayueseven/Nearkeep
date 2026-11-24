@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.2"><strong>下载 Mac 版</strong></a> ·
-  <a href="https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.1-windows"><strong>下载 Windows 版</strong></a>
+  <a href="https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.2-windows"><strong>下载 Windows 版</strong></a>
 </p>
 
 <p align="center">
@@ -51,11 +51,11 @@
 | 平台 | 发布状态 | 下载 |
 | --- | --- | --- |
 | macOS · Apple Silicon | 已发布 | [下载 Mac 版](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.2) |
-| Windows · x64 | 已发布 | [下载 Windows 版](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.1-windows) |
+| Windows · x64 | 已发布 | [下载 Windows 版](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.2-windows) |
 
 **macOS：**适用于 Apple Silicon，最低构建目标为 macOS 14。测试范围见 [macOS 版本说明](./docs/releases/v1.0.2.zh-CN.md)。应用使用**临时签名，尚未通过 Apple 公证**，首次打开可能被 macOS 阻止。
 
-**Windows x64：**从 Windows 版本页下载 EXE 安装包，按 [Windows 安装说明](./docs/releases/v1.0.1-windows.zh-CN.md)完成安装。
+**Windows x64：**从 Windows 版本页下载 EXE 安装包，按 [Windows 安装说明](./docs/releases/v1.0.2-windows.zh-CN.md)完成安装。
 
 1. macOS 用户从版本页下载 ZIP，按[安装指南](./docs/getting-started.zh-CN.md)完成安装。
 2. 首次打开 Nearkeep，选择专用保存文件夹。
@@ -80,7 +80,7 @@
 
 ## 更新与反馈
 
-最新版本：**[macOS 1.0.2](./docs/releases/v1.0.2.zh-CN.md)** · **[Windows x64 1.0.1](./docs/releases/v1.0.1-windows.zh-CN.md)**。
+最新版本：**[macOS 1.0.2](./docs/releases/v1.0.2.zh-CN.md)** · **[Windows x64 1.0.2](./docs/releases/v1.0.2-windows.zh-CN.md)**。
 
 在 [Releases](https://github.com/jayueseven/Nearkeep/releases) 查看更新内容并手动下载新版。更新前正常退出 Nearkeep，保留保存文件夹，并为重要资料做好独立备份。
 

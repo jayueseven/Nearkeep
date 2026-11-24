@@ -2,7 +2,7 @@
 
 [返回 README](../README.zh-CN.md) · [English](./getting-started.md)
 
-使用 Windows？请看 [Windows x64 下载与安装说明](./releases/v1.0.1-windows.zh-CN.md)。
+使用 Windows？请看 [Windows x64 下载与安装说明](./releases/v1.0.2-windows.zh-CN.md)。
 
 ## 下载前
 
