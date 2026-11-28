@@ -2,23 +2,23 @@
 
 [返回 README](../README.zh-CN.md) · [English](./getting-started.md)
 
-使用 Windows？请看 [Windows x64 下载与安装说明](./releases/v1.0.2-windows.zh-CN.md)。
+使用 Windows？请看 [Windows x64 下载与安装说明](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.3-windows#简体中文)。
 
 ## 下载前
 
 | 项目 | 当前版本 |
 | --- | --- |
 | 硬件 | Apple Silicon Mac；暂无 Intel Mac 安装包 |
-| macOS | 最低构建目标为 macOS 14；测试范围见 [macOS 版本说明](./releases/v1.0.2.zh-CN.md) |
+| macOS | 最低构建目标为 macOS 14；测试范围见 [macOS 版本说明](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.3#简体中文) |
 | 安装包 | 内含 Nearkeep.app 和本地搜索模型；约 619 MB，另需解压空间 |
-| 版本 | 1.0.2，构建 20261123.1 |
+| 版本 | 1.0.3，构建 20261128.1 |
 | 签名 | 临时签名；没有 Developer ID 签名或 Apple 公证 |
 
 ## 1. 下载
 
-从[官方版本页](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.2)下载 `Nearkeep-1.0.2-macOS-arm64.zip`。
+从[官方版本页](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.3)下载 `Nearkeep-1.0.3-macOS-arm64.zip`。
 
-1.0.2 使用独立标签、安装包与构建标识；此前的版本说明仍可查阅。
+1.0.3 使用独立标签、安装包与构建标识；此前的版本说明仍可查阅。
 
 ## 2. 安装与打开
 
@@ -43,7 +43,7 @@
 - 首次使用不预设快捷键；在设置中录制或清空。窗口与快速搜索在 Nearkeep 运行时全局生效；Nicole 快捷键仅在资料库窗口前台、设置及其他弹层关闭时生效。
 - 文件预览由 macOS Quick Look 提供，具体格式支持取决于系统。常见图片缩略图包括 JPEG/JPG、PNG、HEIC、TIFF、GIF、BMP、WebP；动图显示静态帧，损坏或不受支持的文件可能无法预览。临时失败会有限重试，也可手动重新加载。
 - 默认保存目录会识别访达中的新增、移动与改名，大型文件夹可能有同步延迟。扫描范围及旧文件处理细节见[版本记录](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.0)。
-- 通过 [Releases](https://github.com/jayueseven/Nearkeep/releases) 手动更新。更新前正常退出、备份重要资料并保留保存位置；并非所有历史版本的升级、回退组合都已验证。
+- 从 1.0.3 起，可在「设置 → 关于」点击「检查更新」。有新版时，仍需手动下载并安装。更新前正常退出、备份重要资料并保留保存位置；并非所有历史版本的升级、回退组合都已验证。
 - 不要同时运行多个 Nearkeep 版本；本地开发版与发行版目前共享资料身份。
 
 [搜索与隐私说明](./search-and-privacy.zh-CN.md) · [反馈问题](https://github.com/jayueseven/Nearkeep/issues)
@@ -54,13 +54,13 @@
 如需确认下载的文件与官方发布一致，请在下载文件夹打开终端，运行：
 
 ```sh
-shasum -a 256 'Nearkeep-1.0.2-macOS-arm64.zip'
+shasum -a 256 'Nearkeep-1.0.3-macOS-arm64.zip'
 ```
 
 预期 SHA-256：
 
 ```text
-a0ad6e551674a1df39c799fd3250f93462b47e71f6bba779dfa268977f8964a6
+bb7abd7ad3b71f26b80eeab6fe1112d46a63557a06736dd68f04eceb4c5bb567
 ```
 
 如果校验值不一致，请勿安装，并从官方入口重新下载。

@@ -2,23 +2,23 @@
 
 [Back to README](../README.md) · [简体中文](./getting-started.zh-CN.md)
 
-On Windows? See the [Windows x64 download and installation instructions](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.2-windows).
+On Windows? See the [Windows x64 download and installation instructions](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.3-windows).
 
 ## Before you download
 
 | Item | Current release |
 | --- | --- |
 | Hardware | Apple Silicon Mac; no Intel Mac package |
-| macOS | Deployment target: macOS 14. See the [macOS release](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.2) for test coverage. |
+| macOS | Deployment target: macOS 14. See the [macOS release](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.3) for test coverage. |
 | Package | Nearkeep.app and a local search model; about 619 MB, plus extraction space |
-| Version | 1.0.2, build 20261123.1 |
+| Version | 1.0.3, build 20261128.1 |
 | Signing | Ad-hoc signed; no Developer ID signature or Apple notarization |
 
 ## 1. Download
 
-Get `Nearkeep-1.0.2-macOS-arm64.zip` from the [official release](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.2).
+Get `Nearkeep-1.0.3-macOS-arm64.zip` from the [official release](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.3).
 
-Version 1.0.2 has its own tag, package and build identifier. Previous release notes remain available for reference.
+Version 1.0.3 has its own tag, package and build identifier. Previous release notes remain available for reference.
 
 ## 2. Install and open
 
@@ -43,7 +43,7 @@ Nested and empty folders are preserved. After import, choose View to locate the 
 - A fresh setup has no assigned shortcuts. Record or clear shortcuts in Settings. Library visibility and quick search are global while Nearkeep is running. Nicole visibility works only with the Library window active and Settings and other dialogs closed.
 - Previews use macOS Quick Look, so format support depends on the system. Common image thumbnails include JPEG/JPG, PNG, HEIC, TIFF, GIF, BMP and WebP. Animated images use a still frame; corrupt or unsupported files may not preview. Temporary failures have limited retries and a manual retry action.
 - The default save location detects Finder additions, moves and renames. Large folders may take time to synchronize. See the [release notes](https://github.com/jayueseven/Nearkeep/releases/tag/v1.0.0) for scanning limits and older-file behavior.
-- Updates are manual through [Releases](https://github.com/jayueseven/Nearkeep/releases). Quit first, back up important files and keep your storage location. Not every historical upgrade or downgrade path has been validated.
+- Starting in 1.0.3, select **Settings → About → Check for Updates** to check for a new version. Download and install any update manually. Quit first, back up important files and keep your storage location. Not every historical upgrade or downgrade path has been validated.
 - Do not run multiple Nearkeep versions together. Local development and distribution builds currently share a data identity.
 
 [Search and privacy details](./search-and-privacy.md) · [Report an issue](https://github.com/jayueseven/Nearkeep/issues)
@@ -54,13 +54,13 @@ Nested and empty folders are preserved. After import, choose View to locate the 
 To check that your download matches the published file, open Terminal in the download folder and run:
 
 ```sh
-shasum -a 256 'Nearkeep-1.0.2-macOS-arm64.zip'
+shasum -a 256 'Nearkeep-1.0.3-macOS-arm64.zip'
 ```
 
 Expected SHA-256:
 
 ```text
-a0ad6e551674a1df39c799fd3250f93462b47e71f6bba779dfa268977f8964a6
+bb7abd7ad3b71f26b80eeab6fe1112d46a63557a06736dd68f04eceb4c5bb567
 ```
 
 If the values do not match, do not install the file. Download it again from the official release.
